@@ -89,4 +89,5 @@ footer.page-footer {
 
 .container {
   display: block;
+  filter: none !important;
 }
