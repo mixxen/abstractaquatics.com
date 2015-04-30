@@ -20,14 +20,19 @@ p {
 }
 
 .parallax-container {
-  min-height: 380px;
+  min-height: 400px;
   line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9);
 }
-  .parallax-container .section {
-    width: 100%;
-  }
+
+.parallax-middle {
+  min-height: 600px
+}
+
+.parallax-container .section {
+  width: 100%;
+}
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
@@ -45,11 +50,20 @@ p {
   }
 }
 
-
 .icon-block {
   padding: 0 15px;
 }
 
+.bio {
+  padding-top: 50px;  
+  padding-bottom: 50px;  
+}
+
 footer.page-footer {
   margin: 0;
+}
+
+.header {
+  font-family: Helvetica, Arial, Verdana, sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
