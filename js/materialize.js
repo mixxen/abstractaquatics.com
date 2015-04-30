@@ -1033,6 +1033,11 @@ $(document).ready(function(){
           window_width = $(window).width();
           updateParallax(false);
         });
+        
+        $(window).on("touchmove", (function() {
+          window_width = $(window).width();
+          updateParallax(false);
+        }));        
 
         $(window).resize(function() {
           window_width = $(window).width();
