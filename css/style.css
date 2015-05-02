@@ -88,3 +88,8 @@ footer.page-footer {
 .header2 {
   font-family: "Times New Roman", Times, serif;
 }
+
+.container {
+  display: block;
+  filter: none !important;
+}
