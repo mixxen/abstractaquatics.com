@@ -45,7 +45,7 @@ p {
   color: rgba(255,255,255,.9);
 }
 
-.parallax-middle {
+.parallax-large {
   min-height: 600px
 }
 
@@ -82,7 +82,9 @@ footer.page-footer {
   margin: 0;
 }
 
-.header {
-  font-family: Helvetica, Arial, Verdana, sans-serif;
-  -webkit-font-smoothing: antialiased;
+.first-parallax {
+  margin-top: -80px;
+}
+.header2 {
+  font-family: "Times New Roman", Times, serif;
 }
