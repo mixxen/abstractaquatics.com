@@ -114,4 +114,6 @@ div.gfyitem {
     margin-top: 0;
     display: inline; }
   div.gfyitem .gfyGif {
-    position: relative !important; }
+    position: relative !important; 
+    max-width: 100%;
+  }
